@@ -7,7 +7,7 @@ The goal was to allow a user to select a local CSV file, and then have 3 dropdow
 
 ## Getting Started
 This code uses [Python](https://www.python.org/) with the following packages:
-- [pandas]([https://numpy.org/](https://pandas.pydata.org/)
+- [pandas](https://pandas.pydata.org/)
 - [os](https://docs.python.org/3/library/os.html)
 - [tkinter](https://docs.python.org/3/library/tkinter.html)
 
