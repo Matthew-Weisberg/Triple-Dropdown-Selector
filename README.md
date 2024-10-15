@@ -16,13 +16,43 @@ The application is a simple interface designed for ease of use.
 
 ![RMA Selector Interface](https://github.com/user-attachments/assets/29ac99b9-6eea-4564-a897-5c1cb6ff3163)
 
-Below is an example of a sample csv containing product, parent reason, and child reason data.
-
-### ...
-
 In order to use the Analyzer application, perform the following steps:
 1. Click the *Select CSV* button to open a file dialog and choose the csv to use.
 2. Open the *Product Category* dropdown and select the correct product.
 3. Open the *Parent Reason* dropdown and select the correct parent reason.
 4. Open the *Child Reason* dropdown and select the correct child reason.
 5. Click *Copy RMA Reason to Clipboard* button to copy the selected child reason to the clipboard for pasting elsewhere.
+
+
+### Sample Data
+
+Below is an example of a sample csv titled *sample_failure_reasons.csv* containing product, parent reason, and child reason data.
+
+|Product        |Parent Reason         |Child Reason             |
+|---------------|----------------------|-------------------------|
+|Blender        |Electrical Issue      |Power Cord Damage        |
+|Blender        |Electrical Issue      |Internal Wiring Failure  |
+|Blender        |Motor Issue           |Motor Burnout            |
+|Blender        |Motor Issue           |Motor Stalling           |
+|Blender        |Blade Issue           |Blade Dullness           |
+|Blender        |Blade Issue           |Blade Dislodging         |
+|Blender        |Overheating           |Motor Overload           |
+|Blender        |Overheating           |Prolonged Use            |
+|Toaster        |Electrical Issue      |Power Cord Damage        |
+|Toaster        |Electrical Issue      |Short Circuit            |
+|Toaster        |Heating Element Issue |Burned Heating Coil      |
+|Toaster        |Heating Element Issue |Inconsistent Heating     | 
+|Toaster        |Bread Ejection Failure|Spring Malfunction       |
+|Toaster        |Bread Ejection Failure|Lever Jamming            |
+|Toaster        |Overheating           |Thermostat Failure       |
+|Toaster        |Overheating           |Prolonged Use            |
+|Electric Kettle|Electrical Issue      |Power Cord Damage        |
+|Electric Kettle|Electrical Issue      |Loose Connection         |
+|Electric Kettle|Heating Issue         |Water Not Heating        |
+|Electric Kettle|Heating Issue         |Inconsistent Heating     |
+|Electric Kettle|Lid Mechanism Issue   |Lid Not Closing          |
+|Electric Kettle|Lid Mechanism Issue   |Latch Failure            |
+|Electric Kettle|Overheating           |Boiling Dry              |
+|Electric Kettle|Overheating           |Internal Component Damage|
+
+If I wanted to select the **Lever Jamming** reason for the Toaster, I would use the following dropdowns:
