@@ -1,4 +1,4 @@
-# RMA-Selector
+# Triple-Dropdown-Selector
 
 ## About the Project
 This project is an application I created in my professional career to assist to help speed up the work flow of coworkers who performed manual data entry; specifically when entering a failure mode for a product. The software being used for data entry only had one single text field/dropdown box and thus every failure reason across all products would be displayed, thus adding time and difficulty to quick selection of the right reason. A simpler solution would be to allow selection of product, filter for unique parent failure categories for that product, and then futher filter for associated child reason root causes with the selected parent reason.
@@ -7,8 +7,8 @@ The goal was to allow a user to select a local CSV file, and then have 3 dropdow
 
 ## Getting Started
 This code uses [Python](https://www.python.org/) with the following packages:
-- [pandas](https://pandas.pydata.org/)
 - [os](https://docs.python.org/3/library/os.html)
+- [pandas](https://pandas.pydata.org/)
 - [tkinter](https://docs.python.org/3/library/tkinter.html)
 
 ## Usage
@@ -24,9 +24,9 @@ In order to use the Analyzer application, perform the following steps:
 5. Click *Copy RMA Reason to Clipboard* button to copy the selected child reason to the clipboard for pasting elsewhere.
 
 
-### Sample Data
+### Sample Usage
 
-Below is an example of a sample csv titled *sample_failure_reasons.csv* containing product, parent reason, and child reason data.
+Below is an example of a sample csv titled *failure_reasons.csv* containing product, parent reason, and child reason data.
 
 |Product        |Parent Reason         |Child Reason             |
 |---------------|----------------------|-------------------------|
@@ -56,3 +56,9 @@ Below is an example of a sample csv titled *sample_failure_reasons.csv* containi
 |Electric Kettle|Overheating           |Internal Component Damage|
 
 If I wanted to select the **Lever Jamming** reason for the Toaster, I would use the following dropdowns:
+
+![1stDropdown](https://github.com/user-attachments/assets/d515b1e5-3c8c-4012-9ee1-18c290ad75b5)
+
+![2ndDropdown](https://github.com/user-attachments/assets/98c09b18-d845-4b3a-89c2-db40e2571923)
+
+![3rdDropdown](https://github.com/user-attachments/assets/9db78a2a-25a5-43d3-82f2-92f6d780354e)
